@@ -17,9 +17,6 @@ void calculation(double *m, double *theta, double *d, double *lambda) {
 }
 
 
-
-
-
 void print_color(double lambda) {
     printf("Wavelength: %.2f nm - Color: ", lambda);
 
@@ -42,6 +39,7 @@ void print_color(double lambda) {
     }
     printf("\n");
 }
+
 
 
 int main() {
